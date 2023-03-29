@@ -33,4 +33,5 @@ To deploy this project run
 ## Feedback
 
 If you have any problems, please join my discord server [here](https://discord.gg/D8ZcY8SJdy)
+#### If you find any problems, please report them to me in discord DMs or via my email jaimytuinyt@gmail.com
 
