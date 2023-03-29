@@ -6,7 +6,7 @@ This repository is an example of a Discord.JS v14 bot with a slash command handl
 
 ## Installation
 
-Installing the correct packages can be done with the following npm commands.
+Installing the correct packages can be done with the following npm command:
 
 ```bash
   npm i -y
