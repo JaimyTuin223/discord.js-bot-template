@@ -9,7 +9,7 @@ This repository is an example of a Discord.JS v14 bot with a slash command handl
 Installing the correct packages can be done with the following npm command:
 
 ```bash
-  npm i -y
+  npm i
 ```
 Don't forget to add your bot token inside `botconfig.json`.
     
