@@ -12,7 +12,7 @@ Installing the correct packages can be done with the following npm command:
   npm i
 ```
 Don't forget to add your bot token inside `botconfig.json`.
-##### To be able to run this code your device will also need to have Node.JS installed, which can be found [here](https://nodejs.org/en/download)
+##### To be able to run this code loccally your device will need to have Node.JS installed, which can be found [here](https://nodejs.org/en/download)
     
 ## Deployment
 
