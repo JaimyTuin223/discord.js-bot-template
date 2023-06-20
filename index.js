@@ -1,10 +1,9 @@
 
-const { Client, GatewayIntentBits, Collection, Interaction, ActivityType, discord } = require("discord.js")
+const { Client, Routes, GatewayIntentBits, Collection, Interaction, ActivityType, discord } = require("discord.js")
 const botConfig = require("./botConfig.json")
 const fs = require("fs");
 
 const { REST } = require('@discordjs/rest');
-const { Routes } = require('discord.js')
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildIntegrations] });
 
@@ -20,12 +19,12 @@ for (const fileSlash of commandSlashFiles) {
     client.slashCommands.set(commandSlash.data.name, commandSlash);
     slashCommands.push(commandSlash.data.toJSON());
 
-    console.log(`${commandSlash.data.name}.js has loaded.`);
+    console.log(`${commandSlash.data.name}.js has loaded.`);  // Logs what commands have loaded.
 
 }
 
 client.once("ready", async () => {
-    console.log(`${client.user.username} is online.`);
+    console.log(`${client.user.username} is online.`);  // Logs when the bot goes online. 
     client.user.setPresence({ activities: [{ name: `V14 bot example.`, type: ActivityType.Playing }], status: 'online' })  // Seting the status of the bot.
 
 
@@ -49,7 +48,7 @@ client.once("ready", async () => {
     })();
 
 });
-// 
+// I suggest only running this registering section when you add new commands, because of discord rate limits.
 
 
 client.on("interactionCreate", async interaction => {
