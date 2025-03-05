@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require('@discordjs/builders');
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
 
@@ -7,7 +7,7 @@ module.exports = {
 		.setDescription('Sends the latency of the bot.'),
 	async execute(client, interaction){
 		
-        interaction.reply({content: `🏓 Latency is ${Math.round(client.ws.ping)}ms.`, ephemeral: true});
+        return interaction.reply({content: `🏓 Latency is ${Math.round(client.ws.ping)}ms.`, ephemeral: true});
 
 	},
 
