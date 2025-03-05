@@ -37,20 +37,20 @@ client.once("ready", async () => {
 
 
     // Registering slash commands to Discord.
-    // (async () => {
-    //     try {
-    //         console.log(`Started refreshing application (/) commands.`)
+    (async () => {
+        try {
+            console.log(`Started refreshing application (/) commands.`)
 
-    //         const data = await rest.put(
-    //             Routes.applicationCommands(client.user.id),
-    //             { body: commands },
-    //         )
+            const data = await rest.put(
+                Routes.applicationCommands(client.user.id),
+                { body: commands },
+            )
 
-    //         console.log(`Successfully reloaded application (/) commands.`)
-    //     } catch (error) {
-    //         console.error(error)
-    //     }
-    // })();
+            console.log(`Successfully reloaded application (/) commands.`)
+        } catch (error) {
+            console.error(error)
+        }
+    })();
     // I suggest commenting or disabling the registering code when running alot of tests. A high amount of registrations might get blocked by Discord.
 });
 
