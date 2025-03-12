@@ -14,7 +14,7 @@ module.exports = {
                     { name: "option1", value: "value1" },
                     { name: "option2", value: "value2" }
                 ))
-        .addChannelOption(option =>
+        .addChannelOption(option => // Change to .addMemberOption() and remove channelType to make it member selection! 
             option.setName('channeloption')
                 .setDescription('A list of channels for the user to choose from')
                 .setRequired(true)
