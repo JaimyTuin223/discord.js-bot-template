@@ -24,7 +24,7 @@ Make sure to create a new file named `config.json` in the main file path of your
     "token": "Bot token here"
   }
 ```
-The .gitignore file can be removed from your project folder.
+The `.gitignore` file can be removed from your project folder.
     
 ## Deployment
 
