@@ -1,4 +1,3 @@
-
 // Dependencies and variables
 const { Client, Routes, GatewayIntentBits, Collection, Interaction, ActivityType } = require("discord.js") 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildIntegrations] });

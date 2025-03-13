@@ -9,11 +9,12 @@ module.exports = {
 		.setDescription('Sends a message with the different button types.'),
 	async execute(client, interaction){
 
-        // General information:
-        //  .setCustomId()           The id of the button, can not be identical as another button.
-        //  .setDisabled()
-        //  .setStyle()
-        //  .setEmoji()
+        // Button exampl:
+        // new ButtonBuilder()
+        //    .setCustomId('button1')           -- The ID that identifies the button (Required)
+        //    .setLabel("Primary")              -- The text to display on the button (Required)
+        //    .setStyle(ButtonStyle.Primary)    -- The style of the button (Default: Primary)
+        //    .setDisabled(false),              -- Availability of the button (Default: false)
 
         // This button has the different button types
         const buttonRow1 = new ActionRowBuilder().addComponents( // Maximum amount of buttons per row is 5
@@ -54,13 +55,12 @@ module.exports = {
             new ButtonBuilder()
                 .setCustomId('button2disabled')
                 .setLabel("Success")
-                .setEmoji('✅')
+                .setEmoji('✅') // Adds an emoji to the button
                 .setStyle(ButtonStyle.Success)
                 .setDisabled(true),
-
-            // Add emoji button as example
         );
 		
+        // Buttons and other Interaction components can be added to the message with: components: [] 
         return interaction.reply({ content: `Button example.`, components: [buttonRow1, buttonRow2] });
 
 	},

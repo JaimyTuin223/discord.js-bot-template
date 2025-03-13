@@ -14,6 +14,7 @@ module.exports = {
                     { name: "option1", value: "value1" },
                     { name: "option2", value: "value2" }
                 ))
+
         .addChannelOption(option => // Change to .addMemberOption() and remove channelType to make it member selection! 
             option.setName('channeloption')
                 .setDescription('A list of channels for the user to choose from')
@@ -21,6 +22,7 @@ module.exports = {
                 .addChannelTypes(ChannelType.GuildText)
             // Includes other options like DM, GroupDM, guildVoice and more! (Bot does require access to the channels to display them)
         )
+        
         .addStringOption(option =>
             option.setName('freeinput')
                 .setDescription('Allows the user to fill in a value themselves.')
