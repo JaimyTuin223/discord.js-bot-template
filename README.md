@@ -1,8 +1,11 @@
 
-# Discord.JS v14 bot
+# Discord.js bot template
 
-This repository is an example of a Discord.JS v14 bot with a slash command handler.
+This is a simple to understand open-source template for building your own Discord bot using Node.js and the latest Discord.js version.
+Whether you're a beginner or not, this template offers a great starting point to create your own fully functional bot.
 
+> [!Note]
+> The new template is being devloped in this developed and updated in this branch. Unfinished code and bugs might be included.
 
 ## First time setup
 
@@ -33,10 +36,10 @@ To run the code and make your Discord bot available run the following command in
 
 ## Features
 
-- Discord.JS v14
-- Slash command handler
-- Custom bot presence
-- Code explanation 
+- Based on a recent Discord.JS version
+- Slash command registering and handling
+- Customisable bot presence 
+- Code explanation in the code files
 
 
 ## Feedback
