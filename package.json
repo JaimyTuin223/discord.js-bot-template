@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@discordjs/rest": "^0.4.1",
-    "discord.js": "^14.8.0",
+    "discord.js": "^14.18.0",
     "nodemon": "^3.0.3",
     "rest": "^2.0.0",
     "routes": "^2.1.0"
