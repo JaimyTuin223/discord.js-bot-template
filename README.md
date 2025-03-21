@@ -27,6 +27,7 @@ In this file you can store the bot token for the code to use.
     "token": "Bot token here"
   }
 ```
+The `.gitignore` file can be removed from your project folder.
     
 ## Deployment
 
