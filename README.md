@@ -18,7 +18,9 @@ Installing the correct packages can be done with the following npm command:
 ##### To be able to run this code locally your device will need to have Node.JS installed, which can be found [here](https://nodejs.org/en/download)
 
 ### Bot token
-Make sure to create a new file named `config.json` in the main file path of your project! This should look something like this: 
+Make sure to create a new file named `config.json` in the main file path of your project!
+This should look something like this: 
+
 ![alt text](https://spud.jaimytuin.com/media/projectShowcase/configExample.png)
 
 In this file you can store the bot token for the code to use.
