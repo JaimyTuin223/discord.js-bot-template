@@ -5,7 +5,7 @@ This is a simple to understand open-source template for building your own Discor
 Whether you're a beginner or not, this template offers a great starting point to create your own fully functional bot.
 
 > [!Note]
-> The new template is being devloped in this developed and updated in this branch. Unfinished code and bugs might be included.
+> New example commands are still being worked on, check back later for more features!
 
 ## First time setup
 
@@ -18,7 +18,10 @@ Installing the correct packages can be done with the following npm command:
 ##### To be able to run this code locally your device will need to have Node.JS installed, which can be found [here](https://nodejs.org/en/download)
 
 ### Bot token
-Make sure to create a new file named `config.json` in the main file path of your project! Here you can store your bot token for the code to use.
+Make sure to create a new file named `config.json` in the main file path of your project! This should look something like this: 
+![alt text](https://spud.jaimytuin.com/media/projectShowcase/configExample.png)
+
+In this file you can store the bot token for the code to use.
 ```json
   {
     "token": "Bot token here"
@@ -46,4 +49,3 @@ To run the code and make your Discord bot available run the following command in
 
 If you find any bugs or issues with the code, please ask your question in my discord server [here](https://discord.gg/8KxqWAKCPe)
 #### If you wish to keep it private you can also DM me after joining the server (@jaimytuin)
-
