@@ -19,9 +19,11 @@ Installing the correct packages can be done with the following npm command:
 
 ### Bot token
 Make sure to create a new file named `config.json` in the main file path of your project!
-This should look something like this: 
+The `.gitignore` file can be removed, as it does not impact the code functionality.
 
-![alt text](https://spud.jaimytuin.com/media/projectShowcase/configExample.png)
+| ![Folder structure example](https://spud.jaimytuin.com/media/projectShowcase/configExample.png) |
+|:--:| 
+| *Folder structure example* |
 
 In this file you can store the bot token for the code to use.
 ```json
